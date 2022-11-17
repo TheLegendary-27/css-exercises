@@ -24,3 +24,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*Solution*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-container {
+  display: flex;
+  gap: 52px;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
